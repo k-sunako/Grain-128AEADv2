@@ -45,7 +45,6 @@ if(benchmark_ADDED)
   set_target_properties(benchmark PROPERTIES CXX_STANDARD 17)
 endif()
 
-
 enable_testing()
 
 add_subdirectory(src)
